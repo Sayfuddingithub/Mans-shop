@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/elastislide.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>choose</title>
+</head>
+
+<body class="choose">
+
+    <!-- =============== header start -->
+    <header>
+        <nav>
+            <div class="nav_top">
+                <div class="container">
+                    <div class="row justify-content-md-between justify-content-center align-items-center">
+                        <div class="col-auto mb-sm-0 mt-2 mb-3">
+                            <p class="number">custom care: <a href="#!" class="phone">888-23-4567</a></p>
+                        </div>
+                        <div class="col-auto mb-sm-0 mb-3">
+                            <div class="account">
+                                <div class="dropdown">
+                                    <button class="btn btn-transparent dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        UZ
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">RUS</a></li>
+                                        <li><a class="dropdown-item" href="#">EN</a></li>
+                                        <li><a class="dropdown-item" href="#">CH</a></li>
+                                    </ul>
+                                </div>
+                                <button class="user">
+                                    <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                                    мой акаунт
+                                </button>
+                                <button class="search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav_bottom">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-lg-2 col-md-3 mb-md-0 mb-2">
+                            <a href="#!" class="logo">Mens shop</a>
+                        </div>
+                        <div class="col-lg-7 col-md-2 order-1 order-lg-0">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="container-fluid d-md-flex justify-content-center">
+                                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse justify-content-end navbar-collapse"
+                                        id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                                            <li class="nav-item d-flex justify-content-center ">
+                                                <a class="nav-link ml-lg-4 ml-0" href="./index.html">Главная</a>
+                                            </li>
+                                            <li class="nav-item d-flex justify-content-center ">
+                                                <a class="nav-link ml-lg-4 ml-0" href="./product.html">Ассортимент</a>
+                                            </li>
+                                            <li class="nav-item d-flex justify-content-center ">
+                                                <a class="nav-link ml-lg-4 ml-0" href="#">Что жарко?</a>
+                                            </li>
+                                            <li class="nav-item d-flex justify-content-center ">
+                                                <a class="nav-link ml-lg-4 ml-0" href="#">Скидки</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-lg-3 col-md-5">
+                            <div class="cash">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Ваша карта
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <li><a class="dropdown-item" href="#">Uzcard</a></li>
+                                        <li><a class="dropdown-item" href="#">Visa</a></li>
+                                        <li><a class="dropdown-item" href="#">Humo</a></li>
+                                    </ul>
+                                </div>
+                                <button class="shopping">
+                                    <span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+                                    <p class="count">0 ПОКУПОК | $ 0</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="slider_choose justify-content-md-between justify-content-center">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row justify-content-lg-between justify-content-center">
+                                    <div class="col-lg-7 d-md-block d-none">
+                                        <img class="choose_img pl-md-3 p-0" src="./Images/choose.jpg" alt="jpg"
+                                            width="100%" height="100%">
+                                    </div>
+                                    <div
+                                        class="col-lg-5 justify-content-lg-start  col-10 d-flex flex-column text-lg-left text-center  justify-content-center pr-lg-4 p-0">
+                                        <h2 class="choose_title">Open Heart Top</h2>
+                                        <span class="choose_cash">$13.95</span>
+                                        <p class="choose_text">This is Photoshop's version of Lorem Ipsum. Proin gravida
+                                            nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+                                            auctor,
+                                            nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
+                                            amet
+                                            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
+                                            tellus a odio tincidunt auctor a ornare odio. </p>
+                                        <button class="buy">купить сейчас</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row justify-content-lg-between justify-content-center">
+                                    <div class="col-md-7 d-md-block d-none">
+                                        <img class="choose_img pl-md-3 p-0" src="./Images/choose.jpg" alt="jpg"
+                                            width="100%" height="100%">
+                                    </div>
+                                    <div
+                                        class="col-lg-5 justify-content-lg-start  col-10 d-flex flex-column text-lg-left text-center  justify-content-center pr-lg-4 p-0">
+                                        <h2 class="choose_title">Open Heart Top</h2>
+                                        <span class="choose_cash">$13.95</span>
+                                        <p class="choose_text">This is Photoshop's version of Lorem Ipsum. Proin gravida
+                                            nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+                                            auctor,
+                                            nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
+                                            amet
+                                            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
+                                            tellus a odio tincidunt auctor a ornare odio. </p>
+                                        <button class="buy">купить сейчас</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container mr-0 ml-0">
+                                <div class="row justify-content-lg-between justify-content-center">
+                                    <div class="col-md-7 d-md-block d-none">
+                                        <img class="choose_img pl-md-3 p-0" src="./Images/choose.jpg" alt="jpg"
+                                            width="100%" height="100%">
+                                    </div>
+                                    <div
+                                        class="col-lg-5 justify-content-lg-start  col-10 d-flex flex-column text-lg-left text-center  justify-content-center pr-lg-4 p-0">
+                                        <h2 class="choose_title">Open Heart Top</h2>
+                                        <span class="choose_cash">$13.95</span>
+                                        <p class="choose_text">This is Photoshop's version of Lorem Ipsum. Proin gravida
+                                            nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+                                            auctor,
+                                            nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
+                                            amet
+                                            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
+                                            tellus a odio tincidunt auctor a ornare odio. </p>
+                                        <button class="buy">купить сейчас</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <i class="fa fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main start=============================== -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-12">
+                    <div class="row sort justify-content-lg-between justify-content-end">
+                        <div
+                            class="col-sm-5  pr-0 d-flex align-items-center justify-content-md-center justify-content-end ">
+                            <span class="sortirovka ">Сортировка по</span>
+                            <div class="btn-group">
+                                <button class="btn btn-dark btn-lg " type="button"
+                                    style="background: black; border-radius: 0; text-transform: uppercase; margin-left: 18px; font-size: 11px; ">
+                                    date
+                                </button>
+                                <button type="button"
+                                    class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden"></span>
+                                </button>
+                                <ul class="dropdown-menu"
+                                    style="background: transparent; font-weight: 700; color: black; height: 35px; border: none; text-decoration: none;">
+                                    <li><a style="background: transparent; font-weight: 700; color: black; height: 35px; border: none; text-decoration: none; width: 100%;"
+                                            href="#!">January</a></li>
+                                    <li><a style="background: transparent; font-weight: 700; color: black; height: 35px; border: none; text-decoration: none;"
+                                            href="#!">Feburary</a></li>
+                                    <li><a style="background: transparent; font-weight: 700; color: black; height: 35px; border: none; text-decoration: none;"
+                                            href="#!">March</a></li>
+                                    <li style="width: 100%;"><a
+                                            style="background: transparent; font-weight: 700; color: black; height: 35px; border: none; text-decoration: none; width: 100%;"
+                                            href="#!">April</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="hill d-sm-block d-none">
+                            <div
+                                class="col-auto pr-0 ">
+                                <span class="showing">Showing 1-12 of 347 results</span>
+                                <nav aria-label="Page navigation example" style="display: inline-block;">
+                                    <ul class="pagination man  justify-content-end" style="height:100%">
+
+                                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#"><i class="fa fa-chevron-right"
+                                                    style="font-weight: 100;"></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-02.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-03.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-04.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-06.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-07.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-08.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-12.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-13.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-12 text-center pr-0">
+                            <img src="./Images/choose-14.jpg" width="100%" alt="jpg">
+                            <div class="box">
+                                <h4 style="display: block;" class="card_name">NADIA DRESS</h4>
+                                <span style="display: block;" class="card_cash">$64.95</span>
+                                <button class="buy_now"> <a class="buy_link" href="#">Buy now</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="end_page d-flex justify-content-end pt-1 pb-3">
+                        <div class="col-lg-7 col-md-8 d-flex justify-content-end pr-0 d-flex align-items-center ">
+                            <span class="showing">Showing 1-12 of 347 results</span>
+                            <nav aria-label="Page navigation example" style="display: inline-block;">
+                                <ul class="pagination man  justify-content-end" style="height:100%">
+
+                                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa fa-chevron-right"
+                                                style="font-weight: 100;"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <h2 class="category" style="background: black;">категории
+                    </h2>
+                    <div class="accordion accordion-flush" style="color: #727272;" id="accordionFlushExample internal">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header text-left" id="flush-headingOne internal">
+                                <button class="accordion-button collapsed"
+                                    style="color: #727272; display: flex; justify-content: space-between; align-items: center;"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne_internal"
+                                    aria-expanded="false" aria-controls="flush-collapseOne_internal">
+                                    Новое <p class="plyus_category m-0 ml-3 mr-2" style="display: inline-block;">+</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne_internal" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample internal">
+                                <div class="accordion-body">Placeholder content for this accordion,
+                                    which is intended to demonstrate the
+                                    <code>.accordion-flush</code>
+                                    class. This is the first item's accordion body.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header" id="flush-headingTwo_internal">
+                                <button class="accordion-button collapsed"
+                                    style="color:#727272;display: flex; justify-content: space-between; align-items: center;"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo_internal"
+                                    aria-expanded="false" aria-controls="flush-collapseTwo_internal">
+                                    что жарко? <p class="plyus_category m-0 ml-3 mr-2" style="display: inline-block;">+
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo_internal" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo_internal"
+                                data-bs-parent="#accordionFlushExample internal">
+                                <div class="accordion-body">Placeholder content for this accordion,
+                                    which is intended to demonstrate the
+                                    <code>.accordion-flush</code>
+                                    class. This is the second item's accordion body. Let's imagine
+                                    this
+                                    being filled with some actual content.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree_internal">
+                                <button class="accordion-button collapsed"
+                                    style="color: #727272; display: flex; justify-content: space-between; align-items: center;"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree_internal" aria-expanded="false"
+                                    aria-controls="flush-collapseThree_nternal">
+                                    men <p class="plyus_category m-0 ml-3 mr-2" style="display: inline-block;">+</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree_internal" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample internal">
+                                <div class="accordion-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            clothes
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Shoes
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour_internal">
+                                <button class="accordion-button collapsed"
+                                    style="color: #727272; display: flex; justify-content: space-between; align-items: center;"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour_internal" aria-expanded="false"
+                                    aria-controls="flush-collapseFour_internal">
+                                    в корзину <p class="plyus_category m-0 ml-3 mr-2" style="display: inline-block;">+
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour_internal" class="accordion-collapse collapse_internal"
+                                aria-labelledby="flush-headingFour_internal"
+                                data-bs-parent="#accordionFlushExample internal">
+                                <div class="accordion-body">
+                                    <label for="customRange3" class="form-label" style="display: block;"></label>
+                                    <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3"
+                                        width="100%">
+                                    <div class="cash_summa d-flex justify-content-between">
+                                        <p class="cash_text">в размере $0 - $200</p>
+                                        <button class="cash_button">Фильтр</button>
+                                    </div>
+                                    <p class="size_text">Выберите Ваш размер</p>
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination">
+
+                                            <li class="page-item"><a class="page-link sizing" href="#">XS</a></li>
+                                            <li class="page-item"><a class="page-link active sizing" href="#">S</a></li>
+                                            <li class="page-item"><a class="page-link sizing" href="#">XL</a></li>
+                                            <li class="page-item"><a class="page-link sizing" href="#">XXL</a></li>
+
+                                        </ul>
+                                    </nav>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="category" style="background: black;">
+                        on sale
+                    </h2>
+                    <div class="min_block d-flex ">
+                        <div class="min_img"><img src="./Images/choose-05.jpg" alt="jpg"></div>
+                        <div class="min_info">
+                            <h3 class="min_name">PINTUCK TANK</h3><span class="min_cash">$45.55</span>
+                        </div>
+                    </div>
+                    <div class="min_block d-flex">
+                        <div class="min_img"><img src="./Images/choose-09.jpg" alt="jpg"></div>
+                        <div class="min_info">
+                            <h3 class="min_name">FOLICIA SILK SHIRT</h3><span class="min_cash">$69.49</span>
+                        </div>
+                    </div>
+                    <div class="min_block d-flex ">
+                        <div class="min_img"><img src="./Images/choose-10.jpg" alt="jpg"></div>
+                        <div class="min_info">
+                            <h3 class="min_name">Laylala Shirt</h3><span class="min_cash">$78.25</span>
+                        </div>
+                    </div>
+
+                    <h2 class="category" style="background: black;">
+                        featured products
+                    </h2>
+
+                    <div class="min_block d-flex ">
+                        <div class="min_img"><img src="./Images/choose-11.jpg" alt="jpg"></div>
+                        <div class="min_info">
+                            <h3 class="min_name">Basic Sunglasses</h3><span class="min_cash">$14.95</span>
+                        </div>
+                    </div>
+                    <div class="min_block d-flex">
+                        <div class="min_img"><img src="./Images/choose-15.jpg" alt="jpg"></div>
+                        <div class="min_info">
+                            <h3 class="min_name">Billie J</h3><span class="min_cash">$69.49</span>
+                        </div>
+                    </div>
+                    <div class="min_block d-flex ">
+                        <div class="min_img"><img src="./Images/choose-16.jpg" alt="jpg"></div>
+                        <div class="min_info">
+                            <h3 class="min_name">Sandie Shopperbag</h3><span class="min_cash">$69.95</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="vacuum" style="background: #f7f7f7; height: 57px;"></section>
+
+    <!-- =========================== footer start -->
+    <footer>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row justify-content-lg-between justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="footer_box">
+                                    <h3 class="footer_title">Наш сервис</h3>
+                                    <ul class="footer_ul">
+                                        <li class="footer_list"><a class="footer_link" href="#!">Contact</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">FAQ</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of payment</a>
+                                        </li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of sale</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Delivery terms and
+                                                conditions</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Returns and Refunds</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer_box">
+                                    <h3 class="footer_title">Наш сервис</h3>
+                                    <ul class="footer_ul">
+                                        <li class="footer_list"><a class="footer_link" href="#!">Contact</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">FAQ</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of payment</a>
+                                        </li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of sale</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Delivery terms and
+                                                conditions</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Returns and Refunds</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer_box">
+                                    <h3 class="footer_title">Наш сервис</h3>
+                                    <ul class="footer_ul">
+                                        <li class="footer_list"><a class="footer_link" href="#!">Contact</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">FAQ</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of payment</a>
+                                        </li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of sale</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Delivery terms and
+                                                conditions</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Returns and Refunds</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="footer_box">
+                                    <h3 class="footer_title">Наш сервис</h3>
+                                    <ul class="footer_ul">
+                                        <li class="footer_list"><a class="footer_link" href="#!">Contact</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">FAQ</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of payment</a>
+                                        </li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Terms of sale</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Delivery terms and
+                                                conditions</a></li>
+                                        <li class="footer_list"><a class="footer_link" href="#!">Returns and Refunds</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 mt-4 mt-lg-0">
+                        <div class="footer_social">
+                            <h2 class="footer_title">Соц сети</h2>
+                            <div class="social_bottom">
+                                <div class="social_left">
+                                    <ul class="footer_icons">
+                                        <li class="icon_list"><a href="#!" class="icon_link"><i
+                                                    class="fa fa-facebook-f"></i></a></li>
+                                        <li class="icon_list"><a href="#!" class="icon_link"><i
+                                                    class="fa fa-facebook-f"></i></a></li>
+                                        <li class="icon_list"><a href="#!" class="icon_link"><i
+                                                    class="fa fa-facebook-f"></i></a></li>
+                                    </ul>
+                                    <ul class="footer_icons">
+                                        <li class="icon_list"><a href="#!" class="icon_link"><i
+                                                    class="fa fa-facebook-f"></i></a></li>
+                                        <li class="icon_list"><a href="#!" class="icon_link"><i
+                                                    class="fa fa-facebook-f"></i></a></li>
+                                        <li class="icon_list"><a href="#!" class="icon_link"><i
+                                                    class="fa fa-facebook-f"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="social_right">
+                                    <img src="./Images/secured.png" alt="png" class="right_icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row justify-content-lg-between justify-content-center">
+                    <div
+                        class="col-xl-6 col-lg-7 col-md-10 col-12 d-flex align-items-center mt-lg-2 justify-content-between">
+                        <ul class="footer_menu">
+                            <li class="menu_list"><a href="#!" class="menu_link">Privacy & Cookies</a></li>
+                            <li class="menu_list"><a href="#!" class="menu_link">Terms & Conditions</a></li>
+                            <li class="menu_list"><a href="#!" class="menu_link">Accessibility</a></li>
+                            <li class="menu_list"><a href="#!" class="menu_link">Store Directory</a></li>
+                            <li class="menu_list"><a href="#!" class="menu_link">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto mt-lg-0 mt-3 text-center">
+                        <div class="footer_end">
+                            <a href="#!" class="end_link pl-lg-2 p-0">© MensShop.com</a>
+                            <p class="end_text">All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/modernizr.custom.17475.js"></script>
+    <script src="./js/bundle.js"></script>
+    <script src="./js/jequrey.min.js"></script>
+    <script src="./js/jquery.elastislide.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
